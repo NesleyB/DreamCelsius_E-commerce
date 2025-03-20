@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <a href="Login.html"></a>
+   <link rel="stylesheet" href="Register.html">
+   <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 <body>
-    <div>
+    <div class="reg">
         <div>
-            <h1>Register</h1>
+            <h1 >Register</h1>
         </div>
-        <form action="/submit-login" method="POST">
+        <form action="/submit-register" method="POST" >
             <label for="username">First Name</label>
             <input type="text" id="firstname" name="firstname" placeholder="Enter your FirstName" required><br>
 
@@ -34,14 +35,15 @@
             <input type="Conf-password" id="Conf-password" name="Conf-password" placeholder="Confirm your password" required><br>
 
             <div class="forgot-password">
-                <a href="#">Forgot password?</a><br>
+                <a href="F_Password.html">Forgot password?</a><br>
             </div>
 
-            <button type="submit" value="Register">Register</button><br>
-
-            <input type="submit" value="Register">
+            <button onclick="submit" value="Register">Register</button><br>
         </form>
-    
+        <div>
+            Already have an account?
+            <a href="Login.html">Login</a>
+        </div>
     </div>
    
 </body>

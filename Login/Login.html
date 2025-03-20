@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style.css">
     <title>Login</title>
-    <a href="Register.html"></a>
+    
 </head>
 <body>
-    <div>
-        <h1>Login</h1>
+    <div class="login">
+        <h1 text-color="Green">Login</h1>
     </div>
     <form action="/submit-login" method="POST">
         <label for="username">Username</label>
@@ -18,14 +19,14 @@
         <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
 
         <div class="forgot-password">
-            <a href="#">Forgot password?</a><br>
+            <a href="F_Password.html">Forgot password?</a><br>
         </div>
 
-        <button type="submit" value="Register">Login</button><br>
+        <button onclick="submit" value="Register">Login</button><br>
     </form>
      <div>
         Don't have an account?
-        <a href="#">Register</a>
+        <a href="Register.html">Register</a>
     </div>
     
 </body>

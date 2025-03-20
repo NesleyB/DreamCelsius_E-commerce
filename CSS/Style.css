@@ -1,0 +1,11 @@
+.reg{
+  align-content:center ;
+  text-align: center;
+}
+
+*{
+    background-color: aqua;
+}
+#forgot-password{
+    background-image: url("../images/fpassword.jpg.jpg");
+}

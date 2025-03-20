@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+ <header class="sticky-header">
+  <div class="logo">
+      <img src="Logo.webp" alt="Company Logo">
+    </div>
+  <section class="welcome">
+      <h1>WELCOME TO OUR STORE</h1>
+      <p>Browse our collection of products</p>
+    </section>
+  <div class="header-content">
+    <div class="search-bar-container">
+      <input type="text" class="search-bar" placeholder="Search products...">
+      <button class="search-button">🔍</button>
+    </div>
+    <div class="header-actions">
+      <button class="cart-btn">Cart 🛒</button><span id="cart-count">0</span>
+	  <button class="login-btn">Login/Signup</button>
+	<div class="header-actions">
+      <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero-banner">
+   <img src="img1.jpg" alt="Hero Banner">
+    <div class="hero-text">
+     <h1>Exclusive Deals Just for You</h1>
+     <p>Find the best products at unbeatable prices.</p>
+     <button class="cta-btn">Shop Now</button>
+     <button class="cta-btn">Learn More</button>
+    </div>
+  </section>
+  <!-- Main Section -->
+  <main>
+
+    <section class="categories">
+      <h2>Categories</h2>
+      <ul>
+        <li><a href="#">Vegetables</a></li>
+        <li><a href="#">Fruits</a></li>
+        <li><a href="#">Juice</a></li>
+        <li><a href="#">Cleaning Service</a></li>
+        <li><a href="#">Office Furniture</a></li>
+      </ul>
+    </section>
+	
+    <section class="products">
+      <h2>Top Seller</h2>
+      <div class="product-grid">
+        <!-- Product Cards -->
+        <div class="product-card">
+          <img src="Orange.png" alt="Product Image">
+          <p>Navel Orange x 1 Carton Box (Min. Order)</p>
+		  <h3>R 285.00</h3>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product-card">
+          <img src="Juice.png" alt="Product Image">
+          <p>Dream Juice 100 % Guava Juice 330ml Cans (Pack of 24)</p>
+		  <h3>R 180.00</h3>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product-card">
+          <img src="Seeds.png" alt="Product Image">
+          <p>Sesame Seeds 1 Metric Ton(Min. Order)</p>
+		  <h3>R 5 000.00</h3>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product-card">
+          <img src="Potato.png" alt="Product Image">
+          <p>Potatoes Medium 10 kg(Min. Order)</p>
+		  <h3>R 74.99</h3>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product-card">
+          <img src="Lemon.png" alt="Product Image">
+          <p>Eureka Lemons 1 Carton Box (Min. Order)</p>
+		  <h3>R 275.00</h3>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product-card">
+          <img src="Cooking Oil.png" alt="Product Image">
+          <p>20 liters Refined Sunflower Oil in Bulk-1L Box, 5L,20L</p>
+		  <h3>R 250.00</h3>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product-card">
+          <img src="Carrot.png" alt="Product Image">
+          <p>Carrots Bag 10 Kilogram (Min. Order)</p>
+		  <h3>R 109.99</h3>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product-card">
+          <img src="Corn.png" alt="Product Image">
+          <p>White Corn 1 Metric Ton (Min. Order)</p>
+		  <h3>R 5 941.91</h3>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+		
+		<div class="product-card">
+          <img src="Nuts.png" alt="Product Image">
+          <p>Cashew Nuts 1 - 599 Bags(Min. Order)</p>
+		  <h3>R 279.99</h3>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+      <!-- Pagination -->
+      <div class="pagination">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">»</a>
+      </div>
+    </section>
+  </main>
+  
+  <!-- footer Section -->
+  <footer>
+  <div class="footer-container">
+    <!-- Links to Important Pages -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Newsletter Subscription -->
+    <div class="newsletter">
+      <h3>Subscribe to Our Newsletter</h3>
+      <form id="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="social-media">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#" target="_blank" class="social-icon"><img src="icons8-facebook-48.png" alt="Facebook"></a>
+        <a href="#" target="_blank" class="social-icon"><img src="icons8-x-48.png" alt="Twitter"></a>
+        <a href="#" target="_blank" class="social-icon"><img src="icons8-linkedin-48.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </div>
+  <p class="footer-note">© 2025 DreamCelcius. All rights reserved.</p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

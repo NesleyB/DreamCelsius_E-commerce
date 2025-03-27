@@ -8,26 +8,25 @@
     
 </head>
 <body>
-    <div class="login">
-        <h1 text-color="Green">Login</h1>
-    </div>
-    <form action="/submit-login" method="POST">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" placeholder="Enter your username" required><br>
+    <div class="glass-container">
+      <div class="login-box">
+        <h2>Login</h2>
+          <form action="/submit-login" method="POST">
 
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+           <input type="text" id="username" name="username" placeholder="Enter your username" required>
+           <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
-        <div class="forgot-password">
-            <a href="F_Password.html">Forgot password?</a><br>
+           <div class="options">
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Remember Me</label> <br>
+              <a href="F_Password.html">Forgot password?</a>
         </div>
 
-        <button onclick="submit" value="Register">Login</button><br>
+        <button type="submit">Login</button>
+        
+        <p>Don't have an account?<a href="Register.html">Register</a></p> 
     </form>
-     <div>
-        Don't have an account?
-        <a href="Register.html">Register</a>
     </div>
-    
+</div>
 </body>
 </html>
